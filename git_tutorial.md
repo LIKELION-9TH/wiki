@@ -20,16 +20,7 @@ Git과 로컬저장소 연결 = Git 통해서 버전 관리 이루어짐 = 내 �
 
     폴더에서 시작한다. 로컬 저장소 안에서 Git 작업 시작한다!
 
-2. 시작 (Git 초기화 과정)
-
-    git init 
-    → Initialized empty Git repository 나오면 성공
-
-    초기화 과정을 통해서 로컬 저장소 생성. 버전 관리가 가능해진다.
-
-    [.git] 폴더에는 버전 정보와 원격저장소 주소 등이 들어있다. ⇒이 폴더를 로컬저장소라고 부름
-
-3. 정보 등록
+2. 정보 등록
 
 git config —global [user.email](http://user.email) "[GitHub 이메일]"
 git config —global [user.name](http://user.name) "[GitHub 아이디]"
@@ -59,7 +50,9 @@ git config —global [user.name](http://user.name) "[GitHub 아이디]"
     git clone [repo 주소] .
     → 현재 폴더에 받는다는 뜻 (마침표 찍어야 폴더 구조 깔끔함)
 
-    [.git] 폴더가 생성됨 (로컬 저장소 자동으로 생김. 직접 만들 때는 초기화 했었어!)
+    [.git] 폴더가 생성됨 (로컬 저장소 자동으로 생김)
+    [.git] 폴더에는 버전 정보와 원격저장소 주소 등이 들어있다. ⇒이 폴더를 로컬저장소라고 부름
+    
 
 # 3. 로컬 저장소에서 커밋 관리하기
 
